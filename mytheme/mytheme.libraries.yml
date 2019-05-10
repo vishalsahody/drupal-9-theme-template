@@ -1,10 +1,10 @@
 global:
 	css:
 		theme:
-			//path-to-cdn/style.css {type:external, minified:true}
-			css/main.css
+			//path-to-cdn/style.css: {type:external, minified:true}
+			css/main.css: {}
 	js:
-		//path-to-cdn/script.js {type:external, minified:true}
-		js/main.js
+		//path-to-cdn/script.js: {type:external, minified:true}
+		js/main.js: {}
 	dependencies:
 		- code/jquery
