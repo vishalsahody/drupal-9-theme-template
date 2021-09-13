@@ -1,11 +1,11 @@
-name: mytheme
+name: Custom Theme
 type: theme
 description: A Custom theme
-core: 8.x
+core_version_requirement: ^8 || ^9
 libraries:
-	- mytheme/global
+  - mytheme/global
 base theme: classy
 regions:
-	header: Header
-	content: Content
-	footer: Footer
+  header: Header
+  content: Content
+  footer: Footer
