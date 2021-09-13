@@ -1,10 +1,16 @@
 global:
   css:
     theme:
-      # //path-to-cdn/style.css: { type: external, minified: true }
+      # /path-to-cdn/style.css: { type: external, minified: true }
       css/main.css: {}
+      css/main.dev1.css: {}
+      css/main.dev2.css: {}
+      css/main.dev3.css: {}
   js:
-    # //path-to-cdn/script.js: { type: external, minified: true }
+    # path-to-cdn/script.js: { type: external, minified: true }
     js/main.js: {}
+    js/main.dev1.js: {}
+    js/main.dev2.js: {}
+    js/main.dev3.js: {}
   dependencies:
     - code/jquery
