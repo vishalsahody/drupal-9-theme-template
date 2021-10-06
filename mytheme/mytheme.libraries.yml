@@ -13,4 +13,4 @@ global:
     js/main.dev2.js: {}
     js/main.dev3.js: {}
   dependencies:
-    - code/jquery
+    - core/jquery
